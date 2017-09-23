@@ -1,0 +1,66 @@
+/* 
+    Document   : pgn
+    Created on : Sep 30, 2013, 3:18:36 PM
+    Author     : thirupathiraobattu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.clsPgnContainer{
+    width:250px;
+    height:350px;
+    overflow: auto;
+    border: 2px solid slategrey;
+    margin-bottom: 5px;
+}
+.btn{
+    width:100px;
+    height:30px;
+    text-align:center;
+    border:2px solid red;
+}
+div.notationVertical {
+    height: 25px;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 3px 0;
+}
+div.notationVertical span.mhl {
+    background: #ffff00;
+    border: 1px solid #ffcc00;
+}
+div.notationVertical span.num {
+    font-weight: bold;
+    width: 20px;
+    text-align: right;
+}
+div.notationVertical span {
+    float: left;
+    display: inline;
+    margin-right: 2px;
+    width: 41px;
+    height: 14px;
+    padding: 2px;
+}
+div.even{
+    background: #e7e7e7;
+}
+
+
+#toolbar {
+    padding: 4px;
+    display: inline-block;
+    margin-bottom: 5px;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
+#btnToolbar {
+    padding: 4px;
+    display: inline-block;
+    width: 240px;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    
+    
+}

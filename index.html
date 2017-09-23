@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/pgn.css" type="text/css"/>
+        <link rel="stylesheet" href="css/app.css" type="text/css"/>
+        <link rel="stylesheet" href="libs/ui-lightness/jquery-ui-1.10.3.custom.css" type="text/css"/>
+
+        <!-- libs -->
+        <script type="text/javascript" src="libs/mustache.js"></script>
+        <script type="text/javascript" src="libs/jquery-2.0.3.js"></script>
+        <script type="text/javascript" src="libs/jquery-ui-1.10.3.custom.js"></script>
+
+        <!-- Event Module -->
+        <script type="text/javascript" src="src/event.js"></script>
+        
+        <script type="text/javascript" src="src/replay.js"></script>
+        <!-- Board Module -->
+        <script type="text/javascript" src="src/boardModel.js"></script>
+        <script type="text/javascript" src="src/boardView.js"></script>
+
+        <!-- Piece Module -->
+        <script type="text/javascript" src="src/pieceModel.js"></script>
+        <script type="text/javascript" src="src/pieceView.js"></script>
+        <script type="text/javascript" src="src/boardController.js"></script>
+
+        <!-- PGN Module -->
+
+        <script type="text/javascript" src="src/pgnModel.js"></script>
+        <script type="text/javascript" src="src/pgnView.js"></script>
+        <script type="text/javascript" src="src/pgnController.js"></script>
+        
+        
+        
+
+        <!-- App Controller Module -->
+        <script type="text/javascript" src="src/app.js"></script>
+
+    </head>
+    <body>
+        <div id="idChess" class="clsChess">
+            <div id="idHilighter1" class="clsHilighter"></div>
+            <div id="idHilighter2" class="clsHilighter"></div>            
+            <div id="idBoardContainer" class="clsBoardContainer"></div>
+            <div id="pieceContainer"></div>
+            <div class="clsControls">
+                <div id="pgnContainer" class="clsPgnContainer"></div>            
+                <div id="toolbar" class="ui-widget-header ui-corner-all">
+                    <button id="first">beginning</button>
+                    <button id="prev">rewind</button>
+                    <button id="play">play</button>
+                    <button id="next">fast forward</button>
+                    <button id="last">go to end</button>
+                </div>
+<!--                <div id="btnToolbar" class="ui-widget-header ui-corner-all">
+                    <button id="reset">Reset</button>
+                    <button id="exportPgn">Export</button>
+                </div>-->
+            </div>
+        </div>
+    </body>
+</html>
